@@ -14,6 +14,19 @@
     </license>
   </licenses>
 
+  <distributionManagement>
+    <repository>
+      <id>maven-releases</id>
+      <url>http://mvn.mzydz.com/repository/maven-releases/</url>
+      <uniqueVersion>true</uniqueVersion>
+    </repository>
+    <snapshotRepository>
+      <id>maven-snapshots</id>
+      <url>http://mvn.mzydz.com/repository/maven-snapshots/</url>
+      <uniqueVersion>true</uniqueVersion>
+    </snapshotRepository>
+  </distributionManagement>
+
   <properties>
     <com.squareup.retrofit2.version>2.4.0</com.squareup.retrofit2.version>
   </properties>
